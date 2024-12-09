@@ -1,0 +1,13 @@
+{
+  "user_id": 1414,
+  "restaurant_id": 1,
+  "customer_name": "Rishabh",
+  "items": [
+    {
+      "item_id": 1,
+      "item_name": "Butter Chicken",
+      "quantity": 2,
+      "price": 300.00
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+	"is_taking_orders": true,
+	"menu": [
+		{
+			"category_name": "Indian",
+			"items": [
+				{
+					"description": "Creamy butter chicken served with naan",
+					"is_available": true,
+					"is_veg": false,
+					"item_id": 1,
+					"item_name": "Butter Chicken",
+					"price": 300.0
+				},
+				{
+					"description": "Marinated paneer grilled to perfection",
+					"is_available": true,
+					"is_veg": true,
+					"item_id": 2,
+					"item_name": "Paneer Tikka",
+					"price": 200.0
+				},
+				{
+					"description": "Aromatic basmati rice cooked with chicken and spices.",
+					"is_available": true,
+					"is_veg": false,
+					"item_id": 3,
+					"item_name": "Chicken Biryani",
+					"price": 250.0
+				},
+				{
+					"description": "Tender mutton cooked in a flavorful curry.",
+					"is_available": true,
+					"is_veg": false,
+					"item_id": 4,
+					"item_name": "Mutton Rogan Josh",
+					"price": 350.0
+				},
+				{
+					"description": "Fragrant rice cooked with fresh vegetables.",
+					"is_available": true,
+					"is_veg": true,
+					"item_id": 5,
+					"item_name": "Veg Pulao",
+					"price": 150.0
+				},
+				{
+					"description": "Cottage cheese in a creamy tomato gravy.",
+					"is_available": true,
+					"is_veg": true,
+					"item_id": 6,
+					"item_name": "Paneer Butter Masala",
+					"price": 200.0
+				},
+				{
+					"description": "Soft Indian bread with garlic topping.",
+					"is_available": true,
+					"is_veg": true,
+					"item_id": 7,
+					"item_name": "Garlic Naan",
+					"price": 50.0
+				}
+			]
+		},
+		{
+			"category_name": "Chinese",
+			"items": [
+				{
+					"description": "Crispy fried rolls with mixed vegetable filling.",
+					"is_available": true,
+					"is_veg": true,
+					"item_id": 8,
+					"item_name": "Spring Roll",
+					"price": 120.0
+				},
+				{
+					"description": "Stir-fried noodles with vegetables.",
+					"is_available": true,
+					"is_veg": true,
+					"item_id": 9,
+					"item_name": "Hakka Noodles",
+					"price": 180.0
+				},
+				{
+					"description": "Spicy chicken dumplings in Manchurian sauce.",
+					"is_available": true,
+					"is_veg": false,
+					"item_id": 10,
+					"item_name": "Chicken Manchurian",
+					"price": 220.0
+				}
+			]
+		}
+	],
+	"restaurant_name": "Spicy Treats"
+}
