@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { getSocket } from "../socket";
+import { Grid } from "react-loader-spinner";
 
 const OrderStatus = () => {
   const [message, setMessage] = useState("Waiting for order confirmation...");
@@ -42,8 +43,18 @@ const OrderStatus = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <h2>Order Status</h2>
-      <p>{message}</p>
+    <Grid
+  visible={true}
+  height="80"
+  width="80"
+  color="#4fa94d"
+  ariaLabel="grid-loading"
+  radius="12.5"
+  wrapperStyle={{}}
+  wrapperClass="grid-wrapper"
+  />
+      <h2 className="text-2xl font-bold mb-4 mt-4">Order Status</h2>
+      <p className="text-lg">{message}</p>
     </div>
   );
 };
