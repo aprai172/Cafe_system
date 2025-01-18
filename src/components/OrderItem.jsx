@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
 import { initializeSocket } from "../socket";
 
-const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN0YXVyYW50X2lkIjoxLCJleHAiOjE3Njg1MzQxNjl9.W8Ru9IBYujkbL3O-KUQednS9THYm4-bjpR3W1QFO5ZM";
+const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN0YXVyYW50X2lkIjoxLCJleHAiOjE3NzA3OTkwOTJ9.eoJs4rfE_Jva59jH_Ed7PSrEGdZZg7wCdhfx_-Ky-iM";
 initializeSocket(token);
 
 const submitOrder = async (orderData) => {
