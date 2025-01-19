@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import Topbar from './Topbar';
 
-const Layout = () => {
+const Mainfile = () => {
   return (
     <div className="flex h-screen bg-gray-100">
       <Sidebar />
@@ -18,4 +18,4 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default Mainfile;

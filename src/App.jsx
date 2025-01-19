@@ -6,7 +6,7 @@ import OrderMonitor from "./components/OrderMonitor";
 import Qrcode from "./OrderForm";
 import BillPage from "./components/BIllPage";
 import Dashboard from "./components/Dashboard";
-import Layout from "./components/Layout/Layout";
+import Layout from "./components/layout/Mainfile";
 import MenuManagementPage from "./components/MenuManagementPage";
 import OrdersPage from "./components/OrdersPage";
 import BarcodePage from "./components/BarcodePage";
