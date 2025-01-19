@@ -4,7 +4,7 @@ import { GiNoodles, GiFruitBowl } from "react-icons/gi";
 import { MdDeleteOutline } from "react-icons/md";
 import axios from "axios";
 import BottomSheet from "../components/global/bottomSheet";
-import AddCategoryForm from "./addnewMenu/addCategory";
+import AddCategoryForm from "./addnewMenu/AddCategory";
 import AddSubCategory from "./addnewMenu/AddSubCategory";
 
 const MenuManagementPage = () => {
