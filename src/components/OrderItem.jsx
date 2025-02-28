@@ -12,7 +12,7 @@ initializeSocket(token);
 const submitOrder = async (orderData) => {
   try {
     const response = await axios.post(
-      "https://menu-order-system.onrender.com/customer/order",
+      "https://menuordersystem-production.up.railway.app/customer/order",
       orderData
     );
     return response.data;

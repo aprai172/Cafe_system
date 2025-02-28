@@ -52,7 +52,7 @@ const OrderMonitor = () => {
     const apiStatus = status.toLowerCase();
     try {
       const response = await fetch(
-        "https://menu-order-system.onrender.com/admin/order/confirm",
+        "https://menuordersystem-production.up.railway.app/admin/order/confirm",
         {
           method: "POST",
           headers: {

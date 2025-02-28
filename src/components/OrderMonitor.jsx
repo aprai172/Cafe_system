@@ -15,7 +15,7 @@ const OrderMonitor = () => {
     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN0YXVyYW50X2lkIjoxLCJleHAiOjE3NzA3OTkwOTJ9.eoJs4rfE_Jva59jH_Ed7PSrEGdZZg7wCdhfx_-Ky-iM";
 
   useEffect(() => {
-    const socket = io("https://menu-order-system.onrender.com", {
+    const socket = io("https://menuordersystem-production.up.railway.app/", {
       query: { token },
       transports: ["websocket", "polling"],
       reconnection: true,
@@ -74,7 +74,7 @@ const OrderMonitor = () => {
   const updateOrderStatus = async (orderId, orderNumber, status) => {
     try {
       const response = await axios.post(
-        "https://menu-order-system.onrender.com/admin/order/confirm",
+        "https://menuordersystem-production.up.railway.app/admin/order/confirm",
         {
           order_id: orderId,
           order_number: orderNumber,
@@ -120,7 +120,7 @@ const OrderMonitor = () => {
 
     try {
       const response = await axios.post(
-        "https://menu-order-system.onrender.com/admin/order/payment",
+        "https://menuordersystem-production.up.railway.app/admin/order/payment",
         {
           order_id: orderId,
           order_number: orderNumber,

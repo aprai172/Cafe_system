@@ -27,7 +27,7 @@ const MenuManagementPage = () => {
   const fetchMenuData = async () => {
     try {
       const response = await axios.get(
-        `https://menu-order-system.onrender.com/get_menu?restaurant_id=${restaurantId}`
+        `https://menuordersystem-production.up.railway.app/get_menu?restaurant_id=${restaurantId}`
       );
       setJsonData(response.data);
     } catch (error) {
@@ -74,10 +74,10 @@ const MenuManagementPage = () => {
   const handleDeleteCategory = async (categoryCode) => {
     try {
       // Note: You said your API for delete is a POST endpoint
-      // "https://menu-order-system.onrender.com/admin/delete/category".
+      // "https://menuordersystem-production.up.railway.app/admin/delete/category".
       // Double-check the required request method & body format.
       await axios.post(
-        "https://menu-order-system.onrender.com/admin/delete/category",
+        "https://menuordersystem-production.up.railway.app/admin/delete/category",
         {
           category_code: categoryCode,
           restaurant_id: restaurantId,

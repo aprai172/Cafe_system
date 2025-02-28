@@ -4,7 +4,7 @@ let socket = null;
 
 export const initializeSocket = (token) => {
   if (!socket) {
-    socket = io("https://menu-order-system.onrender.com/", { query: { token } });
+    socket = io("https://menuordersystem-production.up.railway.app/", { query: { token } });
     socket.on("connect", () => console.log("Connected to WebSocket"));
     socket.on("disconnect", () => console.log("Disconnected from WebSocket"));
   }

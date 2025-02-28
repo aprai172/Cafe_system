@@ -50,18 +50,18 @@ const CategoryForm = ({
       let response;
       if (isEditMode) {
         // EDIT (PUT, PATCH, or whatever your API expects)
-        // Example: https://menu-order-system.onrender.com/admin/edit/category/:id
+        // Example: https://menuordersystem-production.up.railway.app/admin/edit/category/:id
         // or as a query param /admin/edit/category?category_id=<id>
         // Just replace EDIT_API_URL with the correct endpoint
         response = await axios.post(
-          `https://menu-order-system.onrender.com/admin/update/category`, 
+          `https://menuordersystem-production.up.railway.app/admin/update/category`, 
           payload
         );
       } else {
         // ADD (POST)
         // Replace ADD_API_URL with your actual add endpoint
         response = await axios.post(
-          "https://menu-order-system.onrender.com/admin/add/category",
+          "https://menuordersystem-production.up.railway.app/admin/add/category",
           payload
         );
       }

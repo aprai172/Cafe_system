@@ -17,7 +17,7 @@ const MenuPage = () => {
       try {
         
         const response = await axios.get(
-          `https://menu-order-system.onrender.com/get_menu?restaurant_id=${restaurantId}`
+          `https://menuordersystem-production.up.railway.app/get_menu?restaurant_id=${restaurantId}`
         );
         setJsonData(response.data);
       } catch (error) {
